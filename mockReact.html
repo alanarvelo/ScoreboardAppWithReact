@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>REACT App</title>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.js">
+    </script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.js">
+    </script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"> 
+    </script>
+  </head>
+  <body>
+    <div id="contents">
+      <!-- this is where the component will appear -->
+    </div> 
+    <script type="text/babel">
+      var contentNode = document.getElementById('contents');
+      var component = <h1>Hello World!</h1>;
+      ReactDOM.render(component, contentNode); 
+    </script>
+  </body>
+</html>
